@@ -1,0 +1,2 @@
+www.citypopulation.de
+python pwb.py replace.py -regex "\{\{Martwy link dyskusja[^}]*www\.citypopulation\.de/.*?}}" "" -nocase -dotall -namespace:1 -summary:"Bot usuwa zbędne szablony martwego linku" -weblink:"wwww.citypopulation.de" -pt:0
